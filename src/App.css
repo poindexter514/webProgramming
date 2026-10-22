@@ -1,0 +1,18 @@
+#colorGrid {
+  display: flex;
+  max-width: 300px;
+  max-height: 300px;
+  flex-wrap: wrap;
+}
+.block {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.block:hover {
+  color: black;
+  background-color: white !important;
+}
